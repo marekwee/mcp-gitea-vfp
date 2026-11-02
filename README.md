@@ -119,11 +119,6 @@ di commit diversi.
 - Attenzione ai file memorizzati in Git LFS: l'endpoint `/raw` non sostituisce
   automaticamente il download del contenuto LFS; se usi LFS, adatta il lettore
   verso `/media` per la tua versione Gitea.
-- Questa è una base di implementazione, **non ancora provata sul tuo Windows**
-  con la tua distribuzione di FoxBin2Prg. Test locali verificano il flusso con un
-  convertitore fittizio, non l'eseguibile reale.
-- Il server non cerca classi/metodi al suo interno; si possono aggiungere tool
-  `get_vfp_class` e `get_vfp_method` che riusano `read_vfp` e il parser `.VC2`.
 - Usalo con un token Gitea di sola lettura e `VFP_ALLOWED_REPOS` (obbligatorio), meglio se con
   un account isolato. Non aggiungere strumenti di scrittura.
 
