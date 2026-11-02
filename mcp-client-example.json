@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "visualfoxpro": {
+      "command": "C:\\vfp-gitea-mcp\\.venv\\Scripts\\python.exe",
+      "args": ["C:\\vfp-gitea-mcp\\server.py"]
+    }
+  }
+}

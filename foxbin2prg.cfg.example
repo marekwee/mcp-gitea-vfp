@@ -1,0 +1,7 @@
+* Esempio di opzioni da integrare nel FoxBin2Prg.cfg esistente
+* accanto a FoxBin2Prg.exe (non sovrascriverlo senza controllare).
+ShowProgressbar: 0
+DontShowErrors: 1
+ExtraBackupLevels: 0
+OptimizeByFilestamp: 0
+UseClassPerFile: 0
